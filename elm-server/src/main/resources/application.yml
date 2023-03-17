@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: elm-server
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: elm
+      username: elm-admin
+      password: elm-admin
+      field-naming-strategy: org.springframework.data.mapping.model.SnakeCaseFieldNamingStrategy
+
+elm:
+  amap-key: ******
+  amap-url: https://restapi.amap.com/v3/
+  default-city-name: 大连
